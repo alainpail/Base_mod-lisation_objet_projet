@@ -1,0 +1,12 @@
+# vi
+.swp
+
+# modelio
+modelio/**/.runtime/
+modelio/**/.index/
+modelio/**/localmodel/
+modelio/**/blobs/
+modelio/**/XMI/
+stamp.dat
+
+.idea
