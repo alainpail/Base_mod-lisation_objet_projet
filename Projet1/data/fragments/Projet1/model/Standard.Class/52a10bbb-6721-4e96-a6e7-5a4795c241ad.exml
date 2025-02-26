@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="réserver" mc="Standard.Operation" uid="4c3615b9-80f2-49f1-8643-604547c46d21"/>
+          <ID name="reserver" mc="Standard.Operation" uid="4c3615b9-80f2-49f1-8643-604547c46d21"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,13 +25,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[réserver]]></ATT>
+            <ATT name="Name"><![CDATA[reserver]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="date_début" mc="Standard.Parameter" uid="f34bf137-3441-476f-be59-b25329860ef3"/>
+                <ID name="date_debut" mc="Standard.Parameter" uid="f34bf137-3441-476f-be59-b25329860ef3"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[date_début]]></ATT>
+                  <ATT name="Name"><![CDATA[date_debut]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -75,7 +75,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="Résidence" mc="Standard.Parameter" uid="1a8269c5-38f6-4ac2-a811-95a76acfa111"/>
+                <ID name="Residence" mc="Standard.Parameter" uid="1a8269c5-38f6-4ac2-a811-95a76acfa111"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -87,12 +87,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[Résidence]]></ATT>
+                  <ATT name="Name"><![CDATA[Residence]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="résidence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
+                    <ID name="residence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -148,7 +148,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Prénom" mc="Standard.Attribute" uid="c13bad75-90c4-4c94-bf58-c9be9cbf07b0"/>
+          <ID name="Prenom" mc="Standard.Attribute" uid="c13bad75-90c4-4c94-bf58-c9be9cbf07b0"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -162,7 +162,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Prénom]]></ATT>
+            <ATT name="Name"><![CDATA[Prenom]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -196,7 +196,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="numéro de CB" mc="Standard.Attribute" uid="ff4324e0-59ef-4942-9bcf-b76631d8b14f"/>
+          <ID name="numero_de_CB" mc="Standard.Attribute" uid="ff4324e0-59ef-4942-9bcf-b76631d8b14f"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -210,7 +210,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[numéro de CB]]></ATT>
+            <ATT name="Name"><![CDATA[numero_de_CB]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -220,7 +220,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Réservations" mc="Standard.Attribute" uid="f7b40e26-c86b-4a29-9612-97557a8db1ee"/>
+          <ID name="Reservations" mc="Standard.Attribute" uid="f7b40e26-c86b-4a29-9612-97557a8db1ee"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -234,17 +234,17 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[Réservations]]></ATT>
+            <ATT name="Name"><![CDATA[Reservations]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <ID name="Réservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
+              <ID name="Reservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="numéro compte" mc="Standard.Attribute" uid="d600abb9-329f-4d0d-827f-10e0beb458b8"/>
+          <ID name="numero_compte" mc="Standard.Attribute" uid="d600abb9-329f-4d0d-827f-10e0beb458b8"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -258,7 +258,7 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[numéro compte]]></ATT>
+            <ATT name="Name"><![CDATA[numero_compte]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -268,6 +268,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="55475e0a-6c16-43ce-b1d7-a37e473555b1"/>

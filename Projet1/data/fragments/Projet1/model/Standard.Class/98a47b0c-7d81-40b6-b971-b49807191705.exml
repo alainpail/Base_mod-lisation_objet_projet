@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="système de payement " version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="systeme_de_payement " version="4">
   <OBJECT>
-    <ID name="système de payement " mc="Standard.Class" uid="98a47b0c-7d81-40b6-b971-b49807191705"/>
+    <ID name="systeme_de_payement " mc="Standard.Class" uid="98a47b0c-7d81-40b6-b971-b49807191705"/>
     <PID name="Projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[système de payement ]]></ATT>
+      <ATT name="Name"><![CDATA[systeme_de_payement ]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -104,7 +104,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="réservation" mc="Standard.Attribute" uid="53b045c3-d9c7-43d4-a6fd-bf29d43a9633"/>
+          <ID name="reservation" mc="Standard.Attribute" uid="53b045c3-d9c7-43d4-a6fd-bf29d43a9633"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -118,12 +118,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[réservation]]></ATT>
+            <ATT name="Name"><![CDATA[reservation]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <ID name="Réservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
+              <ID name="Reservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -192,6 +192,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

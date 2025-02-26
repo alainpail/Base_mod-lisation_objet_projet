@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="résidence" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="residence" version="4">
   <OBJECT>
-    <ID name="résidence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
+    <ID name="residence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
     <PID name="Projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,7 +11,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[résidence]]></ATT>
+      <ATT name="Name"><![CDATA[residence]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -153,7 +153,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="disponiblité" mc="Standard.Attribute" uid="9c9a9ddb-9959-4b34-9e70-9557e272882f"/>
+          <ID name="disponiblite" mc="Standard.Attribute" uid="9c9a9ddb-9959-4b34-9e70-9557e272882f"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -167,12 +167,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[disponiblité]]></ATT>
+            <ATT name="Name"><![CDATA[disponiblite]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <ID name="disponiblilité" mc="Standard.Class" uid="0cb1af0f-518d-459e-a85e-f0e03aed6f29"/>
+              <ID name="disponiblilite" mc="Standard.Class" uid="0cb1af0f-518d-459e-a85e-f0e03aed6f29"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
@@ -219,9 +219,12 @@
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="service" mc="Standard.Class" uid="8b0f7f0c-a1be-41f9-8181-05d5d360b8a7"/>
-        <COMPID name="disponiblilité" mc="Standard.Class" uid="0cb1af0f-518d-459e-a85e-f0e03aed6f29"/>
+        <COMPID name="disponiblilite" mc="Standard.Class" uid="0cb1af0f-518d-459e-a85e-f0e03aed6f29"/>
         <COMPID name="Partie" mc="Standard.Class" uid="70ab250c-0845-4d7b-a828-ca68c06a1a20"/>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
     </DEPENDENCIES>
   </OBJECT>
 </EXT>

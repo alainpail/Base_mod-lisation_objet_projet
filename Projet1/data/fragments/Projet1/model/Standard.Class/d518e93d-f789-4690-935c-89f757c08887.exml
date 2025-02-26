@@ -17,7 +17,7 @@
     <DEPENDENCIES>
       <COMP relation="OwnedOperation">
         <OBJECT>
-          <ID name="gérer _ tarifs " mc="Standard.Operation" uid="12fd8993-7a26-44fd-9027-42afcd848511"/>
+          <ID name="gerer_tarifs " mc="Standard.Operation" uid="12fd8993-7a26-44fd-9027-42afcd848511"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -25,13 +25,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[gérer _ tarifs ]]></ATT>
+            <ATT name="Name"><![CDATA[gerer_tarifs ]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="période" mc="Standard.Parameter" uid="c685cd16-b389-4340-b752-410068046c93"/>
+                <ID name="periode" mc="Standard.Parameter" uid="c685cd16-b389-4340-b752-410068046c93"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[période]]></ATT>
+                  <ATT name="Name"><![CDATA[periode]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -75,7 +75,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="résidence" mc="Standard.Parameter" uid="866bbb6f-5b15-4b8b-ab99-f2eeb8ec80af"/>
+                <ID name="residence" mc="Standard.Parameter" uid="866bbb6f-5b15-4b8b-ab99-f2eeb8ec80af"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -87,12 +87,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[résidence]]></ATT>
+                  <ATT name="Name"><![CDATA[residence]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <ID name="résidence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
+                    <ID name="residence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -116,7 +116,7 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="gerer les disponibilités " mc="Standard.Operation" uid="70f5283d-b035-46c0-b967-b206c740d0f2"/>
+          <ID name="gerer_les_disponibilites " mc="Standard.Operation" uid="70f5283d-b035-46c0-b967-b206c740d0f2"/>
           <ATTRIBUTES>
             <ATT name="Concurrency">false</ATT>
             <ATT name="Final">false</ATT>
@@ -124,13 +124,13 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[gerer les disponibilités ]]></ATT>
+            <ATT name="Name"><![CDATA[gerer_les_disponibilites ]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="date_début" mc="Standard.Parameter" uid="a6854dde-6fc8-4406-a955-ab48dbc826b8"/>
+                <ID name="date_debut" mc="Standard.Parameter" uid="a6854dde-6fc8-4406-a955-ab48dbc826b8"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -142,7 +142,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[date_début]]></ATT>
+                  <ATT name="Name"><![CDATA[date_debut]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -174,7 +174,7 @@
                 </DEPENDENCIES>
               </OBJECT>
               <OBJECT>
-                <ID name="la résidence " mc="Standard.Parameter" uid="748a186d-e045-4368-aa66-ea870654bc5d"/>
+                <ID name="residence " mc="Standard.Parameter" uid="748a186d-e045-4368-aa66-ea870654bc5d"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -186,12 +186,12 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[la résidence ]]></ATT>
+                  <ATT name="Name"><![CDATA[residence ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Type">
-                    <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
+                    <ID name="residence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -409,7 +409,7 @@
       </COMP>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="résidences" mc="Standard.Attribute" uid="403ac6e8-e41b-42fc-a640-62fc8c87802d"/>
+          <ID name="residences" mc="Standard.Attribute" uid="403ac6e8-e41b-42fc-a640-62fc8c87802d"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -423,12 +423,12 @@
             <ATT name="Visibility">Public</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[résidences]]></ATT>
+            <ATT name="Name"><![CDATA[residences]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
-              <ID name="résidence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
+              <ID name="residence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
             </LINK>
             <COMP relation="Descriptor">
               <OBJECT>
@@ -449,6 +449,9 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <LINK relation="Extension">
+        <FOREIGNID name="JavaClass" mc="Infrastructure.Stereotype" uid="01ec23a8-0000-0258-0000-000000000000"/>
+      </LINK>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="de39bd91-7997-47be-bea0-691129ede564"/>
