@@ -18,8 +18,7 @@
         <COMPID name="State Machine" mc="Standard.StateMachine" uid="27836774-b1c9-4aa9-b419-f19a10b05665"/>
       </COMP>
       <COMP relation="OwnedElement">
-        <COMPID name="Utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
-        <COMPID name="gestionnaire " mc="Standard.Actor" uid="46d306d1-f61a-4f00-ac1c-fafb944bb241"/>
+        <COMPID name="utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
         <COMPID name="gérer une réservation " mc="Standard.UseCase" uid="be9f317b-3da3-4828-991d-128a146328c7"/>
         <COMPID name="payer en avance" mc="Standard.UseCase" uid="3105b7e9-62e3-4f3a-8952-db3308de8f35"/>
         <COMPID name="laisser un avis" mc="Standard.UseCase" uid="51f16f1a-f416-435a-96ad-00167389e2be"/>
@@ -33,6 +32,7 @@
         <COMPID name="Avis" mc="Standard.Class" uid="65b9773a-f74f-4496-a750-fd42a766ae37"/>
         <COMPID name="Utilisateur" mc="Standard.Class" uid="52a10bbb-6721-4e96-a6e7-5a4795c241ad"/>
         <COMPID name="système de payement " mc="Standard.Class" uid="98a47b0c-7d81-40b6-b971-b49807191705"/>
+        <COMPID name="gestionnaire " mc="Standard.Actor" uid="19c5ecae-49bb-4098-bd90-fb0278abfc43"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation projet1" mc="Standard.UseCaseDiagram" uid="de54f917-5cd8-4b93-93a6-623c294253d4"/>

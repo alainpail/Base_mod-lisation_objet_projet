@@ -40,7 +40,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -150,7 +150,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -185,7 +185,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -205,7 +205,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -428,7 +428,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="1a44d46f-b841-455d-89fe-18d8c4c64881"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">360</ATT>
+            <ATT name="LineNumber">365</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -440,7 +440,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -448,14 +448,14 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="e2fb65c1-36bf-482d-9680-4417ea9a076f"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">693</ATT>
+            <ATT name="LineNumber">781</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -463,7 +463,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionSpecification" uid="db772d82-c6d8-4a44-99cc-f06a7f25b868"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">360</ATT>
+            <ATT name="LineNumber">365</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -475,7 +475,7 @@
             </LINK>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -510,7 +510,7 @@
             </COMP>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -710,7 +710,7 @@
         <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="da63976f-7560-4da4-a7fe-5ac49ebe955a"/>
           <ATTRIBUTES>
-            <ATT name="LineNumber">638</ATT>
+            <ATT name="LineNumber">642</ATT>
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
@@ -756,7 +756,7 @@
                 <ID name="" mc="Standard.InteractionOperand" uid="83dc7d8b-20d4-434d-a315-8e38fc8550ee"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[si reservation accepté]]></ATT>
-                  <ATT name="EndLineNumber">673</ATT>
+                  <ATT name="EndLineNumber">740</ATT>
                   <ATT name="LineNumber">590</ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
@@ -839,7 +839,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+                <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -847,10 +847,10 @@
       </COMP>
       <COMP relation="OwnedLine">
         <OBJECT>
-          <ID name="r" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
+          <ID name="" mc="Standard.Lifeline" uid="b0b06648-2ed1-430a-8394-f4e5a29adb90"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[r]]></ATT>
+            <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
@@ -912,7 +912,7 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <LINK relation="Base">
-                    <ID name="Utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
+                    <ID name="utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
@@ -926,11 +926,7 @@
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="Base">
-                    <ID name="gestionnaire " mc="Standard.Actor" uid="46d306d1-f61a-4f00-ac1c-fafb944bb241"/>
-                  </LINK>
-                </DEPENDENCIES>
+                <DEPENDENCIES></DEPENDENCIES>
               </OBJECT>
             </COMP>
           </DEPENDENCIES>
