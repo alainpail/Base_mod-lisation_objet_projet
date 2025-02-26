@@ -268,9 +268,6 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
-      <COMP relation="OwnedElement">
-        <COMPID name="Réservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
-      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="55475e0a-6c16-43ce-b1d7-a37e473555b1"/>

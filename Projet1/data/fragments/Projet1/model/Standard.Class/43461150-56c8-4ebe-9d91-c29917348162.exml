@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Réservation" version="4">
   <OBJECT>
     <ID name="Réservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
-    <PID name="Utilisateur" mc="Standard.Class" uid="52a10bbb-6721-4e96-a6e7-5a4795c241ad"/>
+    <PID name="Projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
       <ATT name="IsMain">false</ATT>
