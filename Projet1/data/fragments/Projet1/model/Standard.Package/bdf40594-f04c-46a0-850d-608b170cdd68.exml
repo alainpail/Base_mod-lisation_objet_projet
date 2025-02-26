@@ -1,0 +1,59 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Projet1" version="4">
+  <OBJECT>
+    <ID name="Projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
+    <PID name="Projet1" mc="Standard.Project" uid="15184cad-74f8-44d4-99ba-0e0dc52ddbdd"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Projet1]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Interaction" mc="Standard.Interaction" uid="58809f85-bc25-431e-b5eb-ab2e27d226fc"/>
+        <COMPID name="State Machine" mc="Standard.StateMachine" uid="27836774-b1c9-4aa9-b419-f19a10b05665"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="Utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
+        <COMPID name="gestionnaire " mc="Standard.Actor" uid="46d306d1-f61a-4f00-ac1c-fafb944bb241"/>
+        <COMPID name="gérer une réservation " mc="Standard.UseCase" uid="be9f317b-3da3-4828-991d-128a146328c7"/>
+        <COMPID name="payer en avance" mc="Standard.UseCase" uid="3105b7e9-62e3-4f3a-8952-db3308de8f35"/>
+        <COMPID name="laisser un avis" mc="Standard.UseCase" uid="51f16f1a-f416-435a-96ad-00167389e2be"/>
+        <COMPID name="definir les tarifs" mc="Standard.UseCase" uid="c38623ea-a07d-4b57-88c2-bd9f357eb57a"/>
+        <COMPID name="gerer les périodes de disponibilité " mc="Standard.UseCase" uid="af245d5a-dd1f-4115-a659-09e3a3cb9e06"/>
+        <COMPID name="confirmer les location" mc="Standard.UseCase" uid="55d6ab8d-284f-446d-bb66-bace1665d692"/>
+        <COMPID name="consulter les disponibilités " mc="Standard.UseCase" uid="1b6200ce-f041-4e17-a726-be2569293036"/>
+        <COMPID name="gerer les tarifs" mc="Standard.UseCase" uid="8096ebf3-3245-47ab-ab81-fbda7af26563"/>
+        <COMPID name="Gestionnaire " mc="Standard.Class" uid="d518e93d-f789-4690-935c-89f757c08887"/>
+        <COMPID name="résidence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
+        <COMPID name="Avis" mc="Standard.Class" uid="65b9773a-f74f-4496-a750-fd42a766ae37"/>
+        <COMPID name="Utilisateur" mc="Standard.Class" uid="52a10bbb-6721-4e96-a6e7-5a4795c241ad"/>
+        <COMPID name="système de payement " mc="Standard.Class" uid="98a47b0c-7d81-40b6-b971-b49807191705"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Diagramme de cas d'utilisation projet1" mc="Standard.UseCaseDiagram" uid="de54f917-5cd8-4b93-93a6-623c294253d4"/>
+        <COMPID name="Diagramme de classe projet1" mc="Standard.ClassDiagram" uid="bb13455f-20f2-429f-a6e9-98106bef9120"/>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="ad58b04d-20a9-4381-817d-d08946ccf9f7"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[<Saisir le texte de la note ici>]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
