@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="consulter les disponibilités " version="4">
   <OBJECT>
     <ID name="consulter les disponibilités " mc="Standard.UseCase" uid="1b6200ce-f041-4e17-a726-be2569293036"/>
-    <PID name="projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
+    <PID name="Projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
       <ATT name="IsAbstract">false</ATT>
@@ -13,6 +13,23 @@
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1b2462c8-5e3a-41ac-9f00-9d4306046103"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="gerer les périodes de disponibilité " mc="Standard.UseCase" uid="af245d5a-dd1f-4115-a659-09e3a3cb9e06"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
       <COMP relation="OwnedEnd">
         <OBJECT>
           <ID name="" mc="Standard.AssociationEnd" uid="9daec49b-fcf8-4040-8e41-1efd3b07a34c"/>
@@ -33,7 +50,7 @@
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="Utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
+              <ID name="utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>

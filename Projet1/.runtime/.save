@@ -1,9 +1,10 @@
-#Wed Mar 05 15:27:28 CET 2025
+#Wed Mar 05 16:03:59 CET 2025
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de classe projet1' {bb13455f-20f2-429f-a6e9-98106bef9120} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de cas d'utilisation projet1' {de54f917-5cd8-4b93-93a6-623c294253d4} Standard.UseCaseDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme de cas d'utilisation projet1' {de54f917-5cd8-4b93-93a6-623c294253d4} Standard.UseCaseDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de s\u00E9quence R\u00E9servation' {2b652e1c-69b1-453d-b122-2e1a8f93fffc} Standard.SequenceDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Diagramme de s\u00E9quence payement' {f2861c9d-32d7-424c-8727-27a99ba35dbc} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme de s\u00E9quence payement' {f2861c9d-32d7-424c-8727-27a99ba35dbc} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams4='Diagramme de s\u00E9quence remboursement' {fb1f4742-da43-4601-85a4-5e1b8bdeec8d} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de classe projet1' {bb13455f-20f2-429f-a6e9-98106bef9120} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Diagramme de s\u00E9quence R\u00E9servation' {2b652e1c-69b1-453d-b122-2e1a8f93fffc} Standard.SequenceDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
