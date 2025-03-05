@@ -21,7 +21,7 @@
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Diagramme d'état service " mc="Standard.StateMachineDiagram" uid="71625682-2a7d-402d-8886-f0cfe9894a29"/>
+        <COMPID name="Diagramme d'état service" mc="Standard.StateMachineDiagram" uid="e021c5db-4790-4d7c-8178-bfeb02c9211d"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

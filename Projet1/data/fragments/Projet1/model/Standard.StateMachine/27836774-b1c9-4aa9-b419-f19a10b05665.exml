@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="State Machine" version="4">
   <OBJECT>
     <ID name="State Machine" mc="Standard.StateMachine" uid="27836774-b1c9-4aa9-b419-f19a10b05665"/>
-    <PID name="projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
+    <PID name="Projet1" mc="Standard.Package" uid="bdf40594-f04c-46a0-850d-608b170cdd68"/>
     <ATTRIBUTES>
       <ATT name="Kind">Dynamic</ATT>
       <ATT name="IsReentrant">false</ATT>
@@ -17,11 +17,188 @@
             <ATT name="Name"></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
-          <DEPENDENCIES></DEPENDENCIES>
+          <DEPENDENCIES>
+            <COMP relation="Sub">
+              <OBJECT>
+                <ID name="effectuer une réservation " mc="Standard.State" uid="d2c785d1-2cbc-4284-b1f9-6d77c7c66755"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[effectuer une réservation ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="9c221323-c890-49fe-8afa-3ebc2cc1b736"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="réservation confirmée" mc="Standard.State" uid="ba9d2dd9-6f14-4dd3-935a-9457261c94cc"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="réservation confirmée" mc="Standard.State" uid="ba9d2dd9-6f14-4dd3-935a-9457261c94cc"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[réservation confirmée]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="a93e8a61-7a00-4df3-b114-6727c83ffdcc"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="payer la réservation " mc="Standard.State" uid="76a2d854-71b0-453b-b38c-4019cee9507b"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Standard.Transition" uid="c6e222e0-4e11-4750-93f5-903b5bbf15b4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Réservation annulée" mc="Standard.State" uid="0ab6a582-bfa1-4008-9650-6ad31483b5b0"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="payer la réservation " mc="Standard.State" uid="76a2d854-71b0-453b-b38c-4019cee9507b"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[payer la réservation ]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="814e9d88-4d85-4297-bbd8-1e8efa3695cf"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Réservation annulée" mc="Standard.State" uid="0ab6a582-bfa1-4008-9650-6ad31483b5b0"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="Transition1" mc="Standard.Transition" uid="6bb03352-d2e5-4882-911a-c1cc797f0339"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State" mc="Standard.FinalState" uid="6f5fbb3f-0431-415f-8962-6c2091223fb3"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Réservation annulée" mc="Standard.State" uid="0ab6a582-bfa1-4008-9650-6ad31483b5b0"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Réservation annulée]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="OutGoing">
+                    <OBJECT>
+                      <ID name="Transition" mc="Standard.Transition" uid="a97f45d5-8c4e-4c51-95a5-5fc0c75435a0"/>
+                      <ATTRIBUTES>
+                        <ATT name="Effect"></ATT>
+                        <ATT name="ReceivedEvents"></ATT>
+                        <ATT name="SentEvents"></ATT>
+                        <ATT name="Guard"></ATT>
+                        <ATT name="PostCondition"></ATT>
+                        <ATT name="Name"><![CDATA[Transition]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Target">
+                          <REFOBJ>
+                            <ID name="Final State1" mc="Standard.FinalState" uid="09d14c4b-be88-4178-9161-2eb118cbee72"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State" mc="Standard.FinalState" uid="6f5fbb3f-0431-415f-8962-6c2091223fb3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="Final State1" mc="Standard.FinalState" uid="09d14c4b-be88-4178-9161-2eb118cbee72"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"><![CDATA[Final State1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
         </OBJECT>
       </COMP>
       <COMP relation="Product">
-        <COMPID name="Diagramme d'état State Machine" mc="Standard.StateMachineDiagram" uid="e0eb2681-0726-4264-85d2-7af2ff7085c0"/>
+        <COMPID name="Diagramme d'état Réservation " mc="Standard.StateMachineDiagram" uid="e0eb2681-0726-4264-85d2-7af2ff7085c0"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
