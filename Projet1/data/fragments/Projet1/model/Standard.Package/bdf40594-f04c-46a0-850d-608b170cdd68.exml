@@ -18,6 +18,8 @@
         <COMPID name="State Machine" mc="Standard.StateMachine" uid="27836774-b1c9-4aa9-b419-f19a10b05665"/>
         <COMPID name="Interaction1" mc="Standard.Interaction" uid="15f4f56e-0964-4403-b22c-624198caabce"/>
         <COMPID name="Interaction2" mc="Standard.Interaction" uid="7a1b8b2c-7b9e-4583-93ca-4202b279d66a"/>
+        <COMPID name="State Machine1" mc="Standard.StateMachine" uid="7ea806a6-c3d5-4a63-b254-cfb9d352ed6c"/>
+        <COMPID name="State Machine2" mc="Standard.StateMachine" uid="53cc3708-a1a6-41b7-90b9-3db26c3230c2"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="utilisateur" mc="Standard.Actor" uid="b265dede-af2b-433e-b384-351ec55ec843"/>
@@ -38,7 +40,7 @@
         <COMPID name="Reservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
         <COMPID name="se connecter" mc="Standard.UseCase" uid="32507e4b-4cd5-4b2a-8280-4e24c1d5b624"/>
         <COMPID name="creer un compte" mc="Standard.UseCase" uid="b47fee78-a6f4-422e-9749-6389b7daecb5"/>
-        <COMPID name="Use Case" mc="Standard.UseCase" uid="10915ae6-6fbf-4b21-a31c-cfad1404d939"/>
+        <COMPID name="reserver" mc="Standard.UseCase" uid="10915ae6-6fbf-4b21-a31c-cfad1404d939"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation projet1" mc="Standard.UseCaseDiagram" uid="de54f917-5cd8-4b93-93a6-623c294253d4"/>
