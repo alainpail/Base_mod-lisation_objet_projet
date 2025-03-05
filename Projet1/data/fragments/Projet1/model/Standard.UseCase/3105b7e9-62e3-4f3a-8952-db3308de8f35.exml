@@ -15,14 +15,14 @@
     <DEPENDENCIES>
       <COMP relation="Used">
         <OBJECT>
-          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1b5a92cf-8e4f-4ecf-a498-afb32bca0686"/>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="8ad557d1-9569-4cb5-8984-4aaab9c0c87b"/>
           <ATTRIBUTES>
             <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Target">
-              <ID name="gérer une réservation " mc="Standard.UseCase" uid="be9f317b-3da3-4828-991d-128a146328c7"/>
+              <ID name="reserver" mc="Standard.UseCase" uid="10915ae6-6fbf-4b21-a31c-cfad1404d939"/>
             </LINK>
             <LINK relation="Extension">
               <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
