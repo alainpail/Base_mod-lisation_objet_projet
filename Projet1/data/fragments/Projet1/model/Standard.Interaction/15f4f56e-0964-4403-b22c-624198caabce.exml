@@ -11,41 +11,6 @@
     <DEPENDENCIES>
       <COMP relation="Fragment">
         <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="88b11942-ab0f-43d1-849e-729db176865c"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">82</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="SentMessage">
-              <OBJECT>
-                <ID name="" mc="Standard.Message" uid="2e002766-ca60-4a37-82f7-d72a6d764e64"/>
-                <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
-                  <ATT name="KindOfMessage">CompleteKind</ATT>
-                  <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="ReceiveEvent">
-                    <REFOBJ>
-                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="164cf488-4f78-49f9-9b81-38010fbd3773"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="Utilisateur" mc="Standard.Lifeline" uid="a8936698-c4cc-4eb6-94df-0955053571a9"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
           <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="164cf488-4f78-49f9-9b81-38010fbd3773"/>
           <ATTRIBUTES>
             <ATT name="LineNumber">95</ATT>
@@ -80,7 +45,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[4]]></ATT>
+                  <ATT name="Sequence"><![CDATA[3]]></ATT>
                   <ATT name="Name"><![CDATA[demande de type de payment]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -150,7 +115,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[2]]></ATT>
+                  <ATT name="Sequence"><![CDATA[1]]></ATT>
                   <ATT name="Name"><![CDATA[demande des tarifs]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -205,7 +170,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[3]]></ATT>
+                  <ATT name="Sequence"><![CDATA[2]]></ATT>
                   <ATT name="Name"><![CDATA[transmission  des tarifs selon la réservation]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -373,7 +338,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[5]]></ATT>
+                  <ATT name="Sequence"><![CDATA[4]]></ATT>
                   <ATT name="Name"><![CDATA[payement en une fois]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -428,7 +393,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[7]]></ATT>
+                  <ATT name="Sequence"><![CDATA[6]]></ATT>
                   <ATT name="Name"><![CDATA[transmission du montant a payer]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -498,7 +463,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[6]]></ATT>
+                  <ATT name="Sequence"><![CDATA[5]]></ATT>
                   <ATT name="Name"><![CDATA[calcule du montant a payer]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -548,7 +513,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[8]]></ATT>
+                  <ATT name="Sequence"><![CDATA[7]]></ATT>
                   <ATT name="Name"><![CDATA[transmission des coordonnées bancaires ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -603,7 +568,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[10]]></ATT>
+                  <ATT name="Sequence"><![CDATA[9]]></ATT>
                   <ATT name="Name"><![CDATA[confrimation de paiement ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -673,7 +638,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ASyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[9]]></ATT>
+                  <ATT name="Sequence"><![CDATA[8]]></ATT>
                   <ATT name="Name"><![CDATA[communication avec l'organisme bancaire ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -723,7 +688,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[11]]></ATT>
+                  <ATT name="Sequence"><![CDATA[10]]></ATT>
                   <ATT name="Name"><![CDATA[payment en plusieurs fois ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -778,7 +743,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[13]]></ATT>
+                  <ATT name="Sequence"><![CDATA[12]]></ATT>
                   <ATT name="Name"><![CDATA[transmission du montant globale]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -848,7 +813,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ASyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[12]]></ATT>
+                  <ATT name="Sequence"><![CDATA[11]]></ATT>
                   <ATT name="Name"><![CDATA[calcul du montant ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -953,7 +918,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[14]]></ATT>
+                  <ATT name="Sequence"><![CDATA[13]]></ATT>
                   <ATT name="Name"><![CDATA[demande montant voulu]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1003,7 +968,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[15]]></ATT>
+                  <ATT name="Sequence"><![CDATA[14]]></ATT>
                   <ATT name="Name"><![CDATA[transmission  du montant souhaité]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1108,7 +1073,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[16]]></ATT>
+                  <ATT name="Sequence"><![CDATA[15]]></ATT>
                   <ATT name="Name"><![CDATA[demande des coordonnées bancaire]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1158,7 +1123,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[17]]></ATT>
+                  <ATT name="Sequence"><![CDATA[16]]></ATT>
                   <ATT name="Name"><![CDATA[transmission des coordonnées bancaires ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1208,7 +1173,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[18]]></ATT>
+                  <ATT name="Sequence"><![CDATA[17]]></ATT>
                   <ATT name="Name"><![CDATA[communication avec l'organisme bancaire ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1258,7 +1223,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[19]]></ATT>
+                  <ATT name="Sequence"><![CDATA[18]]></ATT>
                   <ATT name="Name"><![CDATA[calcule du montant restant]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1308,7 +1273,7 @@
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[20]]></ATT>
+                  <ATT name="Sequence"><![CDATA[19]]></ATT>
                   <ATT name="Name"><![CDATA[Confirmation de paiement]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
@@ -1358,13 +1323,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="" mc="Standard.Message" uid="8aaa7b7b-e9b2-4314-a547-f624b8e9b623"/>
+                <ID name="paiement finale " mc="Standard.Message" uid="8aaa7b7b-e9b2-4314-a547-f624b8e9b623"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">ReturnMessage</ATT>
-                  <ATT name="Sequence"><![CDATA[22]]></ATT>
-                  <ATT name="Name"></ATT>
+                  <ATT name="Sequence"><![CDATA[20]]></ATT>
+                  <ATT name="Name"><![CDATA[paiement finale ]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
@@ -1419,56 +1384,6 @@
           </DEPENDENCIES>
         </OBJECT>
         <COMPID name="InteractionOperand" mc="Standard.InteractionOperand" uid="648bad10-b430-4e76-8185-146d4622d109"/>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="db997430-5cf0-49b6-891e-7b50d412a585"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">1196</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="SentMessage">
-              <OBJECT>
-                <ID name="" mc="Standard.Message" uid="ba086a0c-dacf-4429-8d1f-4bca138d184f"/>
-                <ATTRIBUTES>
-                  <ATT name="Argument"></ATT>
-                  <ATT name="KindOfMessage">CompleteKind</ATT>
-                  <ATT name="SortOfMessage">SyncCall</ATT>
-                  <ATT name="Sequence"><![CDATA[21]]></ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES>
-                  <LINK relation="ReceiveEvent">
-                    <REFOBJ>
-                      <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="2bb9b6b3-801f-4018-9cb6-283bacd88209"/>
-                    </REFOBJ>
-                  </LINK>
-                </DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="Utilisateur" mc="Standard.Lifeline" uid="a8936698-c4cc-4eb6-94df-0955053571a9"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="" mc="Standard.ExecutionOccurenceSpecification" uid="2bb9b6b3-801f-4018-9cb6-283bacd88209"/>
-          <ATTRIBUTES>
-            <ATT name="LineNumber">1237</ATT>
-            <ATT name="Name"></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="Utilisateur" mc="Standard.Lifeline" uid="a8936698-c4cc-4eb6-94df-0955053571a9"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
       </COMP>
       <COMP relation="OwnedLine">
         <OBJECT>
