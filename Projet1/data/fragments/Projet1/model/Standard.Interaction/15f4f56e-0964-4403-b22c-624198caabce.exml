@@ -274,9 +274,20 @@
                 <ID name="" mc="Standard.InteractionOperand" uid="daf244ed-6189-4879-9324-2fc434c0ce20"/>
                 <ATTRIBUTES>
                   <ATT name="Guard"><![CDATA[payment en une fois]]></ATT>
-                  <ATT name="EndLineNumber">670</ATT>
+                  <ATT name="EndLineNumber">666</ATT>
                   <ATT name="LineNumber">330</ATT>
                   <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES></DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="InteractionOperand" mc="Standard.InteractionOperand" uid="648bad10-b430-4e76-8185-146d4622d109"/>
+                <ATTRIBUTES>
+                  <ATT name="Guard"><![CDATA[paiement en plusieurs fois ]]></ATT>
+                  <ATT name="EndLineNumber">1267</ATT>
+                  <ATT name="LineNumber">667</ATT>
+                  <ATT name="Name"><![CDATA[InteractionOperand]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES></DEPENDENCIES>
@@ -693,41 +704,6 @@
             <LINK relation="Covered">
               <REFOBJ>
                 <ID name="GLCD:système de payment" mc="Standard.Lifeline" uid="bea75a8a-7d18-4daf-a1b7-49ed39591e2f"/>
-              </REFOBJ>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="CombinedFragment" mc="Standard.CombinedFragment" uid="ce3e46ee-5957-411c-8832-a4904f7d30cc"/>
-          <ATTRIBUTES>
-            <ATT name="Operator">SeqOp</ATT>
-            <ATT name="LineNumber">700</ATT>
-            <ATT name="Name"><![CDATA[CombinedFragment]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <COMP relation="Operand">
-              <OBJECT>
-                <ID name="" mc="Standard.InteractionOperand" uid="238c231c-e698-49ad-ac31-f0c626fd44a6"/>
-                <ATTRIBUTES>
-                  <ATT name="Guard"><![CDATA[payement en plusieurs fois ]]></ATT>
-                  <ATT name="EndLineNumber">1275</ATT>
-                  <ATT name="LineNumber">700</ATT>
-                  <ATT name="Name"></ATT>
-                  <ATT name="status">1970354901745664</ATT>
-                </ATTRIBUTES>
-                <DEPENDENCIES></DEPENDENCIES>
-              </OBJECT>
-            </COMP>
-            <LINK relation="Covered">
-              <REFOBJ>
-                <ID name="r" mc="Standard.Lifeline" uid="52ddb160-dfce-4211-8e77-e9b4a71c31a8"/>
-              </REFOBJ>
-              <REFOBJ>
-                <ID name="GLCD:système de payment" mc="Standard.Lifeline" uid="bea75a8a-7d18-4daf-a1b7-49ed39591e2f"/>
-              </REFOBJ>
-              <REFOBJ>
-                <ID name="Utilisateur" mc="Standard.Lifeline" uid="a8936698-c4cc-4eb6-94df-0955053571a9"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -1442,6 +1418,7 @@
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
+        <COMPID name="InteractionOperand" mc="Standard.InteractionOperand" uid="648bad10-b430-4e76-8185-146d4622d109"/>
       </COMP>
       <COMP relation="OwnedLine">
         <OBJECT>
