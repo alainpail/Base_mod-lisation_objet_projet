@@ -29,12 +29,14 @@
         <COMPID name="consulter les disponibilités " mc="Standard.UseCase" uid="1b6200ce-f041-4e17-a726-be2569293036"/>
         <COMPID name="gerer les tarifs" mc="Standard.UseCase" uid="8096ebf3-3245-47ab-ab81-fbda7af26563"/>
         <COMPID name="Gestionnaire " mc="Standard.Class" uid="d518e93d-f789-4690-935c-89f757c08887"/>
-        <COMPID name="résidence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
+        <COMPID name="residence" mc="Standard.Class" uid="eff32c31-7a3e-47f0-8d8d-91d66bc73345"/>
         <COMPID name="Avis" mc="Standard.Class" uid="65b9773a-f74f-4496-a750-fd42a766ae37"/>
         <COMPID name="Utilisateur" mc="Standard.Class" uid="52a10bbb-6721-4e96-a6e7-5a4795c241ad"/>
-        <COMPID name="système de payement " mc="Standard.Class" uid="98a47b0c-7d81-40b6-b971-b49807191705"/>
+        <COMPID name="systeme_de_payement " mc="Standard.Class" uid="98a47b0c-7d81-40b6-b971-b49807191705"/>
         <COMPID name="gestionnaire " mc="Standard.Actor" uid="19c5ecae-49bb-4098-bd90-fb0278abfc43"/>
-        <COMPID name="Réservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
+        <COMPID name="Reservation" mc="Standard.Class" uid="43461150-56c8-4ebe-9d91-c29917348162"/>
+        <COMPID name="se connecter" mc="Standard.UseCase" uid="32507e4b-4cd5-4b2a-8280-4e24c1d5b624"/>
+        <COMPID name="creer un compte" mc="Standard.UseCase" uid="b47fee78-a6f4-422e-9749-6389b7daecb5"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="Diagramme de cas d'utilisation projet1" mc="Standard.UseCaseDiagram" uid="de54f917-5cd8-4b93-93a6-623c294253d4"/>
