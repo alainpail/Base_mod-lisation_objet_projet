@@ -18,4 +18,8 @@ public class systeme_de_payement  {
     public void payement(final boolean plusieursfois , final int somme) {
     }
 
+    @objid ("07f61f79-acb6-4e75-a0ba-15818662d30b")
+    public void CalculDuMontant() {
+    }
+
 }

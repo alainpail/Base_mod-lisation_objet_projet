@@ -1,5 +1,6 @@
 import java.util.Date;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import residence.Partie;
 import residence.service;
 
 @objid ("43461150-56c8-4ebe-9d91-c29917348162")
@@ -18,5 +19,8 @@ public class Reservation {
 
     @objid ("191a2deb-ed02-44c9-a9fd-3a0aca9fe87a")
     public residence resid;
+
+    @objid ("f2d57685-f38e-4270-815c-72e766c4fc64")
+    public Partie part;
 
 }

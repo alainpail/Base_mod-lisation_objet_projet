@@ -1,6 +1,7 @@
 import java.util.Date;
 import java.util.List;
 import com.modeliosoft.modelio.javadesigner.annotations.objid;
+import residence.Partie;
 import residence.service;
 
 @objid ("52a10bbb-6721-4e96-a6e7-5a4795c241ad")
@@ -24,7 +25,7 @@ public class Utilisateur {
     public String numero_compte;
 
     @objid ("4c3615b9-80f2-49f1-8643-604547c46d21")
-    public void reserver(final Date date_debut, final Date Date_fin, final residence Residence, final List<service> services) {
+    public void reserver(final Date date_debut, final Date Date_fin, final residence Residence, final List<service> services, final Partie part) {
     }
 
 }

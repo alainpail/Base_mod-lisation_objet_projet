@@ -20,7 +20,7 @@ public class residence {
     public service[] services;
 
     @objid ("9c9a9ddb-9959-4b34-9e70-9557e272882f")
-    public disponiblilite disponiblite;
+    public disponibilite disponiblite;
 
     @objid ("c6d924cc-6527-4858-bc60-8a1ee4222529")
     public Partie parties;
@@ -40,7 +40,7 @@ public class residence {
     }
 
     @objid ("0cb1af0f-518d-459e-a85e-f0e03aed6f29")
-    public class disponiblilite {
+    public class disponibilite {
         @objid ("bb244784-e444-4a06-bf59-59653279386a")
         private String[] Calendrier;
 
@@ -48,7 +48,7 @@ public class residence {
         private boolean[] Dispo;
 
         @objid ("cb56f9f2-05e9-4542-b9c4-04fce44f5378")
-        public List<Boolean> get Disponibilité (final Date date_début, final Date date_fin) {
+        public List<Boolean> get_Disponibilité (final Date date_début, final Date date_fin) {
             // TODO Auto-generated return
             return false;
         }
