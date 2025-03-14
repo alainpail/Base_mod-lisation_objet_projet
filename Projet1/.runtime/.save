@@ -1,10 +1,6 @@
-#Thu Mar 13 13:53:56 CET 2025
+#Fri Mar 14 19:08:02 CET 2025
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.full.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de classe projet1' {bb13455f-20f2-429f-a6e9-98106bef9120} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams0='Diagramme de s\u00E9quence remboursement' {fb1f4742-da43-4601-85a4-5e1b8bdeec8d} Standard.SequenceDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.development.perspective.parentId=app.ui.ext_com.partstack.bottom
-org.modelio.app.diagram.editor.OpenedDiagrams3='Diagramme d'\u00E9tat r\u00E9sidence ' {26cc7307-ac67-4663-8f8a-6ea0693d8e26} Standard.StateMachineDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams4='Diagramme d'\u00E9tat service' {e021c5db-4790-4d7c-8178-bfeb02c9211d} Standard.StateMachineDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams1='Diagramme de s\u00E9quence R\u00E9servation' {2b652e1c-69b1-453d-b122-2e1a8f93fffc} Standard.SequenceDiagram
-org.modelio.app.diagram.editor.OpenedDiagrams2='Diagramme d'\u00E9tat R\u00E9servation ' {e0eb2681-0726-4264-85d2-7af2ff7085c0} Standard.StateMachineDiagram
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.app.ui.model.perspective.parentId=org.modelio.app.bottom.parts
 org.modelio.app.module.propertytab.GModule\ [id\='JavaDesigner',\ version\='5.4.00',\ type\='MODULE',\ definitionScope\='LOCAL',\ state\='MOUNTED']\ runtime\ module_.org.modelio.diagram.perspective.parentId=app.ui.ext_com.partstack.right
